@@ -1,0 +1,86 @@
+*{
+    background:#222222;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.typing1 {
+    font: bold 200% Consolas, Monaco, monospace;
+    color:#eeeeee;
+    width: 14ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .05em solid;
+}
+
+
+.msg1{
+    font: bold 200% Consolas, Monaco, monospace;
+    color:#eeeeee;
+    opacity: 0;
+}
+
+.scanf1{
+    font: bold 200% Consolas, Monaco, monospace;
+    color:#eeeeee;
+    width: 2ch;
+    border-right: .05em solid;
+    border-right-color: transparent;
+    opacity: 0;
+}
+
+
+/*
+name,duration,function,delay,ite-count,direction
+none  0         ease   0      1        normal
+
+typing 0s-1.5s
+cursor 0s-3.0s
+hide_curosr 3.0s-3.0s
+
+msg1 3.0s-3.0s
+
+*/
+
+.typing1{
+    animation:
+        typing 1.5s steps(12) forwards,
+        cursor 1.0s steps(1) 3,
+        hide_cursor 0s linear 3s forwards;
+}
+
+.msg1{
+    animation: 
+        show_msg 0s linear 3s 1 normal forwards;
+}
+
+.scanf1{
+    animation:
+    cursor 1.0s steps(1) 3s infinite normal,
+    show_msg 0s linear 3s 1 normal forwards;
+}
+
+
+
+/* keyframes */
+@keyframes typing{
+    from { width: 2ch; }
+}
+@keyframes cursor{
+    0%{border-right-color: white;}
+    50% { border-right-color: transparent; }
+}
+
+@keyframes hide_cursor{
+    to { border-right-color: transparent;}
+}
+
+
+@keyframes show_msg{
+    from{ opacity:0;}
+    to{opacity:1;}
+}
+
+
