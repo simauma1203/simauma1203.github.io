@@ -24,7 +24,7 @@ body {
 
 @media screen and (min-width: 1081px) {
     body{
-        margin-top:10vh;
+        margin-top:0vh;
     }
     .icon-img {
 		width: 30vw;
