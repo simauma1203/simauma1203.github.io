@@ -68,3 +68,18 @@ body {
     font-size:40px;
 }
 
+.experience {
+	width: 100%;
+	color: #fff;
+    text-align: center;
+    font-family: arial;
+    padding-top:40px;
+}
+.experience h1 {
+    font-size: 60px;
+    line-height: 0.5em;
+}
+.experience p {
+    font-size: 35px;
+    line-height:1.6em;
+}
