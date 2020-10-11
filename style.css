@@ -109,3 +109,13 @@ body {
     font-size: 60px;
     line-height: 1em;
 }
+
+.works p {
+    font-size: 35px;
+    line-height:2.0em;
+}
+
+.works img {
+    margin:0;
+    padding:0;
+}
