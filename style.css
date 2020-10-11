@@ -26,13 +26,22 @@ body {
     .icon-img {
         margin-top:5vh;
 		width: 30vw;
-	}
+    }
+    .works {
+        margin-top:5vh;
+        width: 60vw;
+    }
 }
 @media screen and (max-width: 1081px) {
 	.icon-img {
         margin-top:20vh;
 		width: 60vw;
-	}
+    }
+    
+    .works {
+        width: 90vw;
+        margin-top:5vh;
+    }
 }
 
 .social{
@@ -84,4 +93,18 @@ body {
 .experience p {
     font-size: 35px;
     line-height:2.0em;
+}
+
+.works {
+	width: 100%;
+	color: #fff;
+    text-align: center;
+    font-family: arial;
+    padding-top:400px;
+    padding-bottom:400px;
+}
+
+.works h1 {
+    font-size: 60px;
+    line-height: 1em;
 }
