@@ -31,6 +31,7 @@ body {
     border-radius: 50%;
 }
 
+/* PC */
 @media screen and (min-width: 1081px) {
     .icon-img {
         margin-top:5vh;
@@ -41,6 +42,7 @@ body {
         width: 60vw;
     }
 }
+/* smart phone */
 @media screen and (max-width: 1081px) {
 	.icon-img {
         margin-top:20vh;
@@ -124,6 +126,8 @@ body {
 }
 
 .works img {
+    width: 80%;
+    height: 80%;
     margin:0;
     padding:0;
 }
