@@ -120,14 +120,23 @@ body {
     line-height: 1em;
 }
 
+.works h2 {
+    font-size: 40px;
+    line-height: 1.4em;
+}
+
 .works p {
     font-size: 35px;
     line-height:1.8em;
 }
 
+.works a {
+    font-size: 30px;
+    color: #fff;
+}
+
 .works img {
     width: 25%;
-    
     margin:0;
     padding:0;
 }
