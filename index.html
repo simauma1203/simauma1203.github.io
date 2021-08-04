@@ -8,11 +8,11 @@
     <body oncontextmenu="return false;">
 
         <div class="profile">
-            <img class="icon-img" src="img/icon-600px.png">
+            <img class="icon-img" src="img/icon-600px.png" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
             <h1>tamaron</h1>
             <p>
                 student at Kyoto Univ.<br>
-                I'm interested in computer science.<br>
+                I'm interested in low-level programming.<br>
             </p>
             <div class="social">
                 <a href="https://github.com/tamaroning">
@@ -51,31 +51,32 @@
 
         <div class="works">
             <h1>Works</h1>
-            <div>
+            <div class="work">
                 <h2>ccr</h2>
                 <p>
-                    a C compiler written in Rust which supports<br>
+                    a toy C compiler written in Rust which supports<br>
                     a small subset of C and output x64 GAS<br>
                     <a href="https://github.com/tamaroning/ccr">
-                        GitHub page
+                        GitHub
                     </a>
-                    <br>
                 </p>
             </div>
-            <div>
+            <div class="work">
                 <h2>PERVERSE</h2>
                 <p>
                     a pazzle game with beautiful graphics<br>
+                    and music made with Unity3D<br>
                     Platform : iOS, Android<br>
-                    <a href="https://github.com/tamaroning/PERVERSE">
-                        GitHub page<br>
-                    </a>
+                    <br>
                 </p>
                 <div>
                     <img class="works" src="pvs_ss/6.png">
-                    <img class="works" src="pvs_ss/2.png">
                     <img class="works" src="pvs_ss/5.png">
+                    <img class="works" src="pvs_ss/2.png">
                 </div>
+                <a href="https://github.com/tamaroning/PERVERSE">
+                    GitHub
+                </a>
                 <br>
             </div>
         </div>
